@@ -1,0 +1,5 @@
+bin/
+obj/
+*.cbTemp
+*.layout
+*.depend
