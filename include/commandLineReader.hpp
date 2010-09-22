@@ -4,10 +4,10 @@
 /**
  * Permet de récuperer les paramètres de la ligne de commande
  * @param int argc
- * @param char *argv[]
+ * @param char* argv[]
  * @param string fileName
  * @param int speed
  */
-void getParamProgram(int argc, char *argv[], std::string &fileName, int &speed);
+void getParamProgram(int argc, char *argv[], std::string& fileName, int& speed);
 
 #endif // COMMANDLINEREADER_HPP_INCLUDED

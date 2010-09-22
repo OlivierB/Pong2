@@ -7,18 +7,14 @@
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
 // Header
-#include "../include/Game.hpp"
+#include "../include/Screen.hpp"
 
-Game::Game()
+Screen::Screen()
 {
     //ctor
 }
 
-Game::~Game()
+Screen::~Screen()
 {
     //dtor
-}
-
-int Game::Run(sf::RenderWindow& App) {
-    return 1;
 }

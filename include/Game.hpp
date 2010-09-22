@@ -1,15 +1,25 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include "Screen.hpp"
 
-class Game
+class Game : public Screen
 {
     public:
-        /** Default constructor */
+        /**
+         * Default constructor
+         */
         Game();
-        /** Default destructor */
+
+        /**
+         * Default destructor
+         */
         virtual ~Game();
-    protected:
+
+        /**
+         * Lancer le jeu
+         */
+        virtual int Run(sf::RenderWindow& App);
     private:
 };
 

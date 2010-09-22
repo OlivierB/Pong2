@@ -39,29 +39,29 @@ std::string floatToString(float value) {
 
 
 int stringToInt(string text) {
-	if(text != "") {
+	if(!text.empty()) {
 		// creer un flux à  partir de la chaine a  convertir
 		istringstream iss(text);
 		// convertir en un int
 		int nomber;
 		iss >> nomber;
 		return nomber;
-	}
-	else
+	} else  {
 		return -1;
+	}
 }
 
 
 float stringToFloat(string text) {
-	if(text != "") {
+	if(!text.empty()) {
 		// creer un flux à  partir de la chaine a  convertir
 		istringstream iss(text);
 		// convertir en un float
 		float nomber;
 		iss >> nomber;
 		return nomber;
-	}
-	else
+	} else {
 		return -1;
+	}
 }
 
