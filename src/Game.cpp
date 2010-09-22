@@ -8,6 +8,7 @@
 #include <SFML/System.hpp>
 // Header
 #include "../include/Game.hpp"
+#include "../include/constants.hpp"
 
 Game::Game()
 {
@@ -33,7 +34,7 @@ int Game::Run(sf::RenderWindow& App) {
         }
 
         // Efface l'écran (remplissage avec du noir)
-        App.Clear();
+        App.Clear(Silver);
 
         // Affichage du contenu de la fenêtre à l'écran
         App.Display();
