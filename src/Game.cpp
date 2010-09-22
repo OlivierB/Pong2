@@ -20,5 +20,24 @@ Game::~Game()
 }
 
 int Game::Run(sf::RenderWindow& App) {
-    return 1;
+    bool run = true;
+
+    while (run) {
+         // Traitement des évènements
+        sf::Event Event;
+        while (App.GetEvent(Event))
+        {
+            // Fenêtre fermée : on quitte
+            if (Event.Type == sf::Event::Closed)
+                App.Close();
+        }
+
+        // Efface l'écran (remplissage avec du noir)
+        App.Clear();
+
+        // Affichage du contenu de la fenêtre à l'écran
+        App.Display();
+    }
+
+    return EXIT;
 }

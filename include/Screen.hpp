@@ -15,4 +15,10 @@ class Screen
     private:
 };
 
+enum {
+    EXIT = -1,
+    GAME = 0,
+    SCORES = 1,
+};
+
 #endif // SCREEN_H
