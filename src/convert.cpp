@@ -1,11 +1,11 @@
 /**
- * Fonction pour gérer le changement de type de variable (avec les flux)
+ * Fonction pour gÃ©rer le changement de type de variable (avec les flux)
  * @date 19/06/2010
  */
 
 #include <iostream>
 #include <string>
-// Nécessaire aux flux
+// NÃ©cessaire aux flux
 #include <sstream>
 // Header
 #include "../include/convert.hpp"
@@ -21,22 +21,22 @@ const char* stringToConstChar(std::string stringName) {
 
 // passage int vers string
 std::string intToString(int value) {
-    // créer un flux de sortie
+    // crÃ©er un flux de sortie
     ostringstream ossValue;
-    // écrire un nombre dans le flux
+    // Ã©crire un nombre dans le flux
     ossValue << value;
-    // récupérer une chaîne de caractères
+    // rÃ©cupÃ©rer une chaÃ®ne de caractÃ¨res
     string text = ossValue.str();
     return text;
 }
 
 
 std::string floatToString(float value) {
-    // créer un flux de sortie
+    // crÃ©er un flux de sortie
     ostringstream ossValue;
-    // écrire un nombre dans le flux
+    // Ã©crire un nombre dans le flux
     ossValue  << value;
-    // récupérer une chaîne de caractères
+    // rÃ©cupÃ©rer une chaÃ®ne de caractÃ¨res
     string text = ossValue.str();
 
     return text;
@@ -45,7 +45,7 @@ std::string floatToString(float value) {
 
 int stringToInt(string text) {
 	if(text != "") {
-		// creer un flux à  partir de la chaine a  convertir
+		// creer un flux Ã Â  partir de la chaine aÂ  convertir
 		istringstream iss(text);
 		// convertir en un int
 		int nomber;
@@ -59,7 +59,7 @@ int stringToInt(string text) {
 
 float stringToFloat(string text) {
 	if(text != "") {
-		// creer un flux à  partir de la chaine a  convertir
+		// creer un flux Ã Â  partir de la chaine aÂ  convertir
 		istringstream iss(text);
 		// convertir en un float
 		float nomber;
