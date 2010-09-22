@@ -37,6 +37,9 @@ int main(int argc, char *argv[]) {
     cout << "> Niveau : " << filename << endl;
     cout << "> Vitesse : " << speed << endl;
 
+    // Fenêtre de rendu
+    sf::RenderWindow App(sf::VideoMode(600, 430, 32), GAME_NAME, sf::Style::Close);
+
     //system("PAUSE");
     return 0;
 }
