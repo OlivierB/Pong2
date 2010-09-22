@@ -1,6 +1,8 @@
 // STL
 #include <iostream>
 #include <string>
+// Stream conversion
+#include "../include/convert.hpp"
 
 using namespace std;
 

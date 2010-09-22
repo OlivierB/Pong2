@@ -1,11 +1,14 @@
-// Fonction pour gérer le changement de type de variable (avec les flux)
-//@pdate : le 19/06/2010
+/**
+ * Fonction pour gérer le changement de type de variable (avec les flux)
+ * @date 19/06/2010
+ */
 
 #include <iostream>
 #include <string>
-#include <sstream> // pour les flux
-// fichier associé
-#include "../include/flux.hpp"
+// Nécessaire aux flux
+#include <sstream>
+// Header
+#include "../include/convert.hpp"
 
 using namespace std;
 

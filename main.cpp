@@ -10,19 +10,18 @@
  * @author Olivier Blin
  */
 
-////////// STL /////////////
+// STL
 #include <iostream>
 #include <string>
 #include <vector>
-
-////////// SFML /////////////
+// SFML
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
 // Constants
 #include "include/constants.hpp"
 // Fonctions
-#include "include/flux.hpp" // flux de convertion
+#include "include/commandLineReader.hpp"
 
 using namespace std;
 
