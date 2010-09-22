@@ -1,14 +1,14 @@
-/****************************
-*                           *
-*           PONG            *
-*                           *
-*****************************/
 /**
-* Quentin Lebourgeois
-* Erwan Matrat
-* Charles Daumont
-* Olivier Blin
-**/
+ **************************
+ *                        *
+ *         PONG           *
+ *                        *
+ **************************
+ * @author Quentin Lebourgeois
+ * @author Erwan Matrat
+ * @author Charles Daumont
+ * @author Olivier Blin
+ */
 
 ////////// STL /////////////
 #include <iostream>
@@ -20,9 +20,9 @@
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
 // Constants
-#include "inc\constants.hpp"
+#include "include/constants.hpp"
 // Fonctions
-#include "inc\flux.hpp" // flux de convertion
+#include "include/flux.hpp" // flux de convertion
 
 using namespace std;
 

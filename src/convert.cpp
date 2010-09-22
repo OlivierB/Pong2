@@ -5,7 +5,7 @@
 #include <string>
 #include <sstream> // pour les flux
 // fichier associé
-#include "../inc/flux.hpp"
+#include "../include/flux.hpp"
 
 using namespace std;
 
