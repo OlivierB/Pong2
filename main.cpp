@@ -26,10 +26,17 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    // initialisation des parametres
-    std::string nomFichier;
-    int vitesse;
-    getParamProgram(argc, argv, nomFichier, vitesse);
-    cout << "nom du fichier : " << nomFichier << "  vitesse : " << vitesse << endl;
+    // Initialisation des parametres
+    std::string filename = "undefined";
+    int speed = 0;
+    // Récupération des arguments de l'executable
+    getParamProgram(argc, argv, filename, speed);
+
+    // Affichage
+    cout << "*** Pong 2 ***" << endl;
+    cout << "> Niveau : " << filename << endl;
+    cout << "> Vitesse : " << speed << endl;
+
+    //system("PAUSE");
     return 0;
 }
