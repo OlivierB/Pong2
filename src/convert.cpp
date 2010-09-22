@@ -1,8 +1,3 @@
-/**
- * Fonction pour gérer le changement de type de variable (avec les flux)
- * @date 19/06/2010
- */
-
 #include <iostream>
 #include <string>
 // Nécessaire aux flux
