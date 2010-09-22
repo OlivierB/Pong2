@@ -32,7 +32,20 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Linker>
+			<Add option="-static-libgcc" />
+			<Add option="-lsfml-graphics" />
+			<Add option="-lsfml-window" />
+			<Add option="-lsfml-system" />
+		</Linker>
+		<Unit filename="include\Game.hpp" />
+		<Unit filename="include\commandLineReader.hpp" />
+		<Unit filename="include\constants.hpp" />
+		<Unit filename="include\convert.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src\Game.cpp" />
+		<Unit filename="src\commandLineReader.cpp" />
+		<Unit filename="src\convert.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
